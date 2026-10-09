@@ -136,7 +136,7 @@ export default function App() {
           <div className="green-trail" />
           <div className="road-line" />
           <div className="car">
-            <img src="/images/car.png.png" alt="Car" />
+            <img src={`${import.meta.env.BASE_URL}images/car.png.png`} alt="Car" />
           </div>
         </div>
 
